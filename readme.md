@@ -69,5 +69,5 @@ Open a shell window to run the install commands
     - `conda install numpy`
 - install matplotlib, to plot data
     - `conda install matplotlib`
-- install ipykernel, to run jupyter notebooks in VSCode
-    - `conda install ipykernel`
+- install ipykernel and nbformat, to run jupyter notebooks in VSCode
+    - `conda install ipykernel nbformat`
