@@ -4,13 +4,15 @@ This is a minimal template for data analysis with python.
 It is intended to researchers in human movement sciences that are new to python.   
 Cloning this template for each new data analysis problem should facilitate data analyses with python and minimize potential errors.   
 
-## Usage 
-1. Download as a zip file and expand the archive on your computer (e.g., in your `~/Download` folder). 
+## Usage (without Git)
+1. Download as a zip file (button `< > Code` next to the green button `Use this template`)
+1. Expand the archive on your computer (e.g., in your `Download` folder). 
 1. Rename the extracted folder with the name of your new project (e.g., `ECG_analysis`)
-1. Move the new project folder where it should be located (e.g., in `~/Documents/CodeProjects/ECG_analysis`)
+1. Move the new `ECG_analysis` folder where it should be located (e.g., in your `Documents/CodeProjects/` directory)
 1. In VSCode :
     1. open the new project in a new window. 
-    1. open `main.ipynb` and clic `Run all`
+    1. open `main.ipynb` and click `Run all`
+
 
 ## Data analysis with python 
 The logic is to organize the data, code and results in separate folders, with everything inside the `Project-Folder`. The minimal structure is as follows:   
@@ -34,7 +36,7 @@ The minimal requirements to start with a human movement analysis project are :
 - `conda` : the environment to manage your python environment 
 
 #### Install python 
-We here use `miniconda` to get a minimal python install (https://conda.io/miniconda.html). 
+We here use `miniconda` to get a minimal python install (https://conda.io/miniconda.html). You will need approximately 2.5 GB of free space on your hard drive to install all the needed tools.
 - Install `miniconda` 
     - Download the **Latest Miniconda Installer** appropriate for your computer (Mac users: prefer the `pkg` version)
     - Install `miniconda`, accepting all defaults 
