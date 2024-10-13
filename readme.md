@@ -13,4 +13,5 @@ Cloning this template for each new data analysis problem should facilitate data 
     1. open `main.ipynb` and click `Run all`
 
 ## Requirements
-- VSCode with the python and jupyter extensions installed (or any other IDE that supports python and jupyter notebooks)
+- [A minimal Python environment for reproducible research in human movement sciences](https://github.com/DenisMot/Python-minimal-install) is my preferred solution.
+- Any IDE supporting python and jupyter notebooks is an alternative solution. 
