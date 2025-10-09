@@ -12,6 +12,19 @@ Cloning this template for each new data analysis problem should facilitate data 
     1. open the new project in a new window. 
     1. open `main.ipynb` and click `Run all`
 
+## Notebook template
+The `template.ipynb` notebook contains a minimal template for data analysis with python. It includes the following sections:
+- **Header:**
+  - The first cell will add a header to the notebook with the project title, author, date. 
+  - You should edit this cell to add your information.
+- **Data Analysis Cells:**
+  - The cells you will use for data analysis (e.g., loading data, preprocessing, modeling, etc.) go here.
+- **Export Cell:**
+  - The last cell will save the notebook as a HTML file next to the notebook file and open it in your web browser. 
+  - The HTML will include all the graphics, and will not show the cell numbers. 
+  - Cells tagged with `hide` will not be shown in the HTML file. 
+    - You can add the `hide` tag to any cell you do not want to appear in the HTML file (e.g., in VSCode, click on  `...` in the icon box in the top left of the cell)
+
 ## Requirements
 - [A minimal Python environment for reproducible research in human movement sciences](https://github.com/DenisMot/Python-minimal-install) is my preferred solution.
 - Any IDE supporting python and jupyter notebooks is an alternative solution. 
